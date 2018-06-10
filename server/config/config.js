@@ -5,6 +5,25 @@
 process.env.PORT = process.env.PORT || 3000;
 
 //=====================
+//Vencimient Token
+//=====================
+// 60 segons
+// 60 minuts
+// 24 hores
+// 30 dies
+
+process.env.CADUCIDAD_TOKEN = 60 * 60 * 24 * 30;
+
+
+//=====================
+//Seed d'autenticació - Token
+//=====================
+
+process.env.SEED = process.env.SEED || 'seed-desarrollo-per-verificar-token'
+
+
+
+//=====================
 //Entorn Heroku/Local
 //=====================
 
